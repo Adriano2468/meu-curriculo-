@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Entre em contacto com Adriano Quimisse">
+
+    <title>Contacto | Adriano Quimisse</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <a href="index.html" class="logo">
+                Adriano Quimisse
+            </a>
+
+            <!-- NAVEGAÇÃO PRINCIPAL -->
+            <nav class="main-nav" aria-label="Navegação principal">
+
+                <ul>
+                    <li>
+                        <a href="index.html">Início</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">Sobre Mim</a>
+                    </li>
+
+                    <li>
+                        <a href="portfolio.html">Portfólio</a>
+                    </li>
+
+                    <li>
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html"
+                           class="active"
+                           aria-current="page">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+
+        <!-- CABEÇALHO DA PÁGINA -->
+        <section class="page-hero">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Fale comigo
+                </p>
+
+                <h1>
+                    Contacto
+                </h1>
+
+                <p>
+                    Preencha o formulário abaixo para entrar em contacto
+                    comigo.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ÁREA DE CONTACTO -->
+        <section class="contact-section">
+
+            <div class="container contact-grid">
+
+                <!-- INFORMAÇÕES -->
+                <article class="contact-info">
+
+                    <header>
+
+                        <p class="eyebrow">
+                            Informações
+                        </p>
+
+                        <h2>
+                            Como me encontrar
+                        </h2>
+
+                    </header>
+
+                    <p>
+                        Se tiver alguma dúvida, sugestão ou quiser conhecer
+                        melhor os meus projetos, pode utilizar os contactos
+                        abaixo.
+                    </p>
+
+
+                    <address>
+
+                        <div class="contact-item">
+
+                            <h3>
+                                Telefone
+                            </h3>
+
+                            <p>
+                                <a href="tel:+258875234152">
+                                    +258 875 234 152
+                                </a>
+                            </p>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <h3>
+                                Email
+                            </h3>
+
+                            <p>
+                                <a href="mailto:adriano@example.com">
+                                    adriano@example.com
+                                </a>
+                            </p>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <h3>
+                                Localização
+                            </h3>
+
+                            <p>
+                                Moçambique
+                            </p>
+
+                        </div>
+
+                    </address>
+
+                </article>
+
+
+                <!-- FORMULÁRIO -->
+                <article class="contact-form-container">
+
+                    <header>
+
+                        <h2>
+                            Envie uma mensagem
+                        </h2>
+
+                        <p>
+                            Os campos marcados com * são obrigatórios.
+                        </p>
+
+                    </header>
+
+
+                    <form action="#" method="post">
+
+                        <!-- DADOS PESSOAIS -->
+                        <fieldset>
+
+                            <legend>
+                                Dados pessoais
+                            </legend>
+
+
+                            <!-- NOME -->
+                            <div class="form-group">
+
+                                <label for="nome">
+                                    Nome completo *
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="nome"
+                                    name="nome"
+                                    placeholder="Digite o seu nome"
+                                    required
+                                    minlength="3"
+                                    autocomplete="name"
+                                >
+
+                            </div>
+
+
+                            <!-- EMAIL -->
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email *
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="exemplo@email.com"
+                                    required
+                                    autocomplete="email"
+                                >
+
+                            </div>
+
+
+                            <!-- TELEFONE -->
+                            <div class="form-group">
+
+                                <label for="telefone">
+                                    Telefone *
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    id="telefone"
+                                    name="telefone"
+                                    placeholder="875234152"
+                                    pattern="[0-9]{9}"
+                                    title="Digite um número de telefone com 9 dígitos."
+                                    required
+                                    autocomplete="tel"
+                                >
+
+                            </div>
+
+
+                            <!-- DATA -->
+                            <div class="form-group">
+
+                                <label for="data">
+                                    Data de contacto *
+                                </label>
+
+                                <input
+                                    type="date"
+                                    id="data"
+                                    name="data"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <!-- NÚMERO -->
+                            <div class="form-group">
+
+                                <label for="idade">
+                                    Idade *
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="idade"
+                                    name="idade"
+                                    min="13"
+                                    max="100"
+                                    required
+                                >
+
+                            </div>
+
+                        </fieldset>
+
+
+                        <!-- PREFERÊNCIAS -->
+                        <fieldset>
+
+                            <legend>
+                                Informações da mensagem
+                            </legend>
+
+
+                            <!-- SELECT -->
+                            <div class="form-group">
+
+                                <label for="assunto">
+                                    Assunto *
+                                </label>
+
+                                <select
+                                    id="assunto"
+                                    name="assunto"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Selecione um assunto
+                                    </option>
+
+                                    <option value="projeto">
+                                        Projeto
+                                    </option>
+
+                                    <option value="trabalho">
+                                        Trabalho académico
+                                    </option>
+
+                                    <option value="colaboracao">
+                                        Colaboração
+                                    </option>
+
+                                    <option value="duvida">
+                                        Dúvida
+                                    </option>
+
+                                    <option value="outro">
+                                        Outro
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <!-- RADIO -->
+                            <div class="form-group">
+
+                                <p class="form-label">
+                                    Preferência de contacto *
+                                </p>
+
+                                <label>
+                                    <input
+                                        type="radio"
+                                        name="preferencia"
+                                        value="email"
+                                        required
+                                    >
+                                    Email
+                                </label>
+
+                                <label>
+                                    <input
+                                        type="radio"
+                                        name="preferencia"
+                                        value="telefone"
+                                    >
+                                    Telefone
+                                </label>
+
+                            </div>
+
+
+                            <!-- CHECKBOX -->
+                            <div class="form-group">
+
+                                <label>
+
+                                    <input
+                                        type="checkbox"
+                                        name="resposta"
+                                        value="sim"
+                                    >
+
+                                    Desejo receber uma resposta.
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- MENSAGEM -->
+                            <div class="form-group">
+
+                                <label for="mensagem">
+                                    Mensagem *
+                                </label>
+
+                                <textarea
+                                    id="mensagem"
+                                    name="mensagem"
+                                    rows="6"
+                                    minlength="10"
+                                    placeholder="Escreva a sua mensagem..."
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            <!-- FICHEIRO -->
+                            <div class="form-group">
+
+                                <label for="ficheiro">
+                                    Anexar ficheiro
+                                </label>
+
+                                <input
+                                    type="file"
+                                    id="ficheiro"
+                                    name="ficheiro"
+                                    accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                                >
+
+                                <small>
+                                    Formatos permitidos:
+                                    PDF, DOC, DOCX, JPG e PNG.
+                                </small>
+
+                            </div>
+
+                        </fieldset>
+
+
+                        <!-- BOTÕES -->
+                        <div class="form-actions">
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary"
+                            >
+                                Enviar mensagem
+                            </button>
+
+                            <button
+                                type="reset"
+                                class="btn btn-secondary"
+                            >
+                                Limpar formulário
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ASIDE -->
+        <aside class="contact-message">
+
+            <div class="container">
+
+                <h2>
+                    Obrigado pela visita!
+                </h2>
+
+                <p>
+                    Fico disponível para conversar sobre projetos,
+                    programação, tecnologia e oportunidades de aprendizagem.
+                </p>
+
+            </div>
+
+        </aside>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <section>
+
+                <h2>
+                    Adriano Quimisse
+                </h2>
+
+                <p>
+                    Currículo pessoal desenvolvido com HTML5 e CSS3.
+                </p>
+
+            </section>
+
+
+            <section>
+
+                <h2>
+                    Contacto
+                </h2>
+
+                <address>
+
+                    <p>
+                        Telefone:
+                        <a href="tel:+258875234152">
+                            +258 875 234 152
+                        </a>
+                    </p>
+
+                    <p>
+                        Email:
+                        <a href="mailto:adriano@example.com">
+                            adriano@example.com
+                        </a>
+                    </p>
+
+                </address>
+
+            </section>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 Adriano Quimisse. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
